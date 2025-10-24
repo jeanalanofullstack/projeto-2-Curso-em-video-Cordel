@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'PassionOne';
+    src: url(../Fonts/Passion_One/PassionOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(../Fonts/Sriracha/Sriracha-Regular.ttf) format("truetype");
+}
+
+:root{
+    --fontTitulo: "PassionOne", sans-serif;
+    --fontTexto: "Sriracha";
+    --fontTamanhoTexto: 2em;
+    --fontTamanhoTitulo: 4em;
+    --backgroundimage1: url("../imagens/background001.jpg");
+    --backgroundimage2: url("../imagens/background002.jpg");
+}
+
+header{
+    background-color: black;
+    color: white;
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    font-size: var(--fontTamanhoTitulo);
+    font-family: var(--fontTitulo);
+    font-weight: 200;
+}
+
+header>p>a{
+    text-decoration: none;
+    color: var(--CorTituloPrincipal);
+}
+
+header>p>a:hover{
+    text-decoration: underline;
+}
+
+main pre{
+    font-family: var(--fontTexto);
+    font-size: var(--fontTamanhoTexto);
+}
+
+.primeiroReceberFundo{
+    background: var(--backgroundimage1) center center no-repeat fixed;
+    width: 100%;
+    background-size: cover;
+}
+
+.textoDentroDoBackground{
+    margin: -30px;
+    color: white;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.segundoReceberFundo{
+    background: var(--backgroundimage2) center center no-repeat fixed;
+    width: 100%;
+    background-size: cover;
+    color: white;
+}
+
+footer p{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
