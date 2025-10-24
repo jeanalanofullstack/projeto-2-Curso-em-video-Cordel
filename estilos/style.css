@@ -18,7 +18,7 @@
 :root{
     --fontTitulo: "PassionOne", sans-serif;
     --fontTexto: "Sriracha";
-    --fontTamanhoTexto: 2em;
+    --fontTamanhoTexto: 1.5em;
     --fontTamanhoTitulo: 4em;
     --backgroundimage1: url("../imagens/background001.jpg");
     --backgroundimage2: url("../imagens/background002.jpg");
