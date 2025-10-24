@@ -24,6 +24,10 @@
     --backgroundimage2: url("../imagens/background002.jpg");
 }
 
+@media screen {
+    font-size: 14px;
+}
+
 header{
     background-color: black;
     color: white;
