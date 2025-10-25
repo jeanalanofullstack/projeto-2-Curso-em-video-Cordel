@@ -86,7 +86,6 @@
     color: white;   
 }
 
-
 footer>p{
     background-color: black;
     color:white;
@@ -116,9 +115,9 @@ footer>p{
     footer{
         font-size: 0.9em;
     }
-
-    /*Suporte para telas de até 600px*/
-    @media (max-width:600px){
+}
+/*Suporte para telas de até 600px*/
+@media (max-width:600px){
         .tituloPagina{
         font-size: 3.3em;
     }
@@ -137,6 +136,5 @@ footer>p{
     }
     footer{
         font-size: 1em;
-    }
     }
 }
