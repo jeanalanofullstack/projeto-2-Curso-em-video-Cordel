@@ -115,6 +115,29 @@ footer>p{
     footer{
         font-size: 0.9em;
     }
+
+    /*Suporte para telas de até 600px*/
+    @media (max-width:600px){
+        .tituloPagina{
+        font-size: 3.3em;
+    }
+    .poesia{
+        font-size: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+    .textobackground > p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .bordaTexto{
+        width: 260px;
+        margin: auto;
+    }
+    footer{
+        font-size: 1em;
+    }
+    }
 }
 /*Suporte para telas de até 600px*/
 @media (max-width:600px){
