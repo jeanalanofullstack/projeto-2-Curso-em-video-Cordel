@@ -31,8 +31,11 @@
     pre{
         font-size: 14px;
     }
+    div>p{
+        font-size: 16px;
+    }
     footer{
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -44,7 +47,7 @@ header{
     padding: 30px;
 }
 
-header h1{
+header>h1{
     font-size: var(--fontTamanhoTitulo);
     font-family: var(--fontTitulo);
     font-weight: 200;
@@ -59,28 +62,45 @@ header>p>a:hover{
     text-decoration: underline;
 }
 
-main pre{
+main>pre{
     font-family: var(--fontTexto);
     font-size: var(--fontTamanhoTexto);
 }
 
-.primeiroReceberFundo{
-    background: var(--backgroundimage1) center center no-repeat fixed;
-    width: 100%;
-    min-height: 250px;
+.backgroundImagem{
+    padding: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    color: white;
 }
 
-.segundoReceberFundo{
-    background: var(--backgroundimage2) center center no-repeat fixed;
-    width: 100%;
-    min-height: 250px;
-    background-size: cover;
-    color: white;
+#fundo1{
+    background-image: var(--backgroundimage1);
 }
 
-footer p{
+#fundo2{
+    background-image: var(--backgroundimage2);
+}
+
+.bordaTexto{
+    border: 3px solid rgb(0, 0, 0);
+    max-width: 340px;
+    margin: 25px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.407);
+    background-color: rgba(0, 0, 0, 0.157);
+    border-radius: 2%;
+}
+
+.textobackground{
+    margin-left: 35px;
+    font-family: var(--fontTexto);
+    font-size: var(--fontTamanhoTexto); 
+    color: white;   
+}
+
+
+footer>p{
     background-color: black;
     color:white;
     padding: 10px;
