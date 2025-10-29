@@ -13,9 +13,9 @@ Na aula, foi exibida apenas uma imagem do resultado final, e a partir dela desen
 
 <p>Embora inspirado na proposta inicial do curso, o código final é totalmente autoral, refletindo minha forma de resolver o desafio — mantendo a essência do “Cordel Moderno”, mas com uma estrutura e estilização próprias.</p>
 
-<p><a href="https://jeanalanofullstack.github.io/projeto-2-Curso-em-video-Cordel/" target="_blank"> 🔗 Visualizar projeto final</a></p>
+<p><a href="https://jeanalanofullstack.github.io/projeto-2-Curso-em-video-Cordel/"> 🔗 Visualizar projeto final</a></p>
 
-<p><a href="https://github.com/professorguanabara/html-css/tree/master/desafios/modulo-02/d012" target="_blank">📚 Versão oficial do professor Gustavo Guanabara</a></p>
+<p><a href="https://github.com/professorguanabara/html-css/tree/master/desafios/modulo-02/d012">📚 Versão oficial do professor Gustavo Guanabara</a></p>
 
 <p>Imagens do projeto:</p>
 <p>Imagem parte um:</p>
